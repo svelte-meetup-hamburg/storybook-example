@@ -1,6 +1,6 @@
 <script>
 	import { Meta, Template, Story } from '@storybook/addon-svelte-csf';
-	import Button from '@lib/components/Button.svelte';
+	import Button from '$lib/components/Button.svelte';
 
 	function doSmth() {
 		console.log('DONE');
@@ -17,7 +17,7 @@
 />
 
 <Template let:args>
-	<!-- <div class="fb-reset" /> -->
+	<!-- <div class="sb-reset"> </div> -->
 	<Button {...args} on:click={args.onClick}>Hallo</Button>
 </Template>
 

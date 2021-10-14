@@ -11,7 +11,7 @@ module.exports = {
 	async viteFinal(config, { configType }) {
 		const path = require('path');
 
-		config.resolve.alias = [{ find: '@lib', replacement: path.resolve('./src/lib') }];
+		config.resolve.alias = [{ find: '$lib', replacement: path.resolve('./src/lib') }];
 
 		return config;
 	}
