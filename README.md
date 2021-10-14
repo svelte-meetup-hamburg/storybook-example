@@ -9,4 +9,5 @@
   - test: tests with cypress
   - loki (start storybook first)
     - loki_update: create inital reference screenshots
-    - loki_test: compare against
+    - loki_test: compare new screenshots against reference screenshots
+    - loki_approve: approve new screenshots
