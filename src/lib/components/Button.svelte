@@ -2,7 +2,7 @@
 	export let disabled: boolean = false;
 </script>
 
-<button class="bg-blue-500 rounded-lg px-4 py-2" {disabled}>
+<button class="bg-blue-400 rounded-lg px-4 py-2" {disabled}>
 	<slot />
 </button>
 
